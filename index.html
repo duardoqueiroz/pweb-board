@@ -3,11 +3,16 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
   <link href="/dist/output.css" rel="stylesheet">
 </head>
 <body>
-  <h1 class="text-3xl font-bold underline">
-    Hello world!
-  </h1>
+  <div class="m-10">
+    <button onclick="addBoard()"><i class="text-5xl fas fa-plus-circle"></i></button>
+  </div>
+  
+  <section id="pattern" class="inline-flex overflow-x-clip">
+  </section>
+  <script src="script.js"></script>
 </body>
 </html>
