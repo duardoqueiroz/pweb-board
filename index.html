@@ -1,18 +1,25 @@
-<!doctype html>
-<html>
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
-  <link href="/dist/output.css" rel="stylesheet">
-</head>
-<body>
-  <div class="m-10">
-    <button onclick="addBoard()"><i class="text-5xl fas fa-plus-circle"></i></button>
-  </div>
-  
-  <section id="pattern" class="inline-flex overflow-x-clip">
-  </section>
-  <script src="script.js"></script>
-</body>
+<!DOCTYPE html>
+<html class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <link href="/dist/output.css" rel="stylesheet" />
+  </head>
+  <body class="m-10 dark:bg-slate-900">
+    <div class="ml-3">
+      <div class="flex items-center space-x-5 font-bold text-white">
+        <button onclick="addBoard()">
+          <i class="text-5xl fas fa-plus-circle"></i>
+        </button>
+        <span class="text-3xl">Create new board</span>
+      </div>
+    </div>
+
+    <section id="pattern" class="inline-flex overflow-x-visible"></section>
+    <script src="script.js"></script>
+  </body>
 </html>
